@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Seed = () => {
-  return (
-    <div>Seed</div>
-  )
-}
+  return <div>Seed</div>;
+};
 
-export default Seed
+export default Seed;
