@@ -2,6 +2,7 @@ import React from "react";
 import "./Welcome.css";
 import { useNavigate } from "react-router-dom";
 
+<<<<<<< HEAD
 const Welcome = () => {
   const Navigate = useNavigate();
 
@@ -80,3 +81,12 @@ const Welcome = () => {
 };
 
 export default Welcome;
+=======
+function Welcome() {
+  return (
+    <div>Welcome</div>
+  )
+}
+
+export default Welcome;
+>>>>>>> 517d12f8957c2bafe891c240a4f8ae0b7a336609
