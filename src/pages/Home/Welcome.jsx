@@ -1,8 +1,8 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./Welcome.css";
 import { useNavigate } from "react-router-dom";
 
-<<<<<<< HEAD
 const Welcome = () => {
   const Navigate = useNavigate();
 
@@ -35,8 +35,8 @@ const Welcome = () => {
 
       <p className="card-text">
         Welcome to BayzCrypt,your gateway to secure and decentralized
-        finances.With BayzCrypt,you're in control of your assests like never
-        before.Let's get started to secure your account and ensure the safety of
+        finances.With BayzCrypt,you are in control of your assests like never
+        before.Let get started to secure your account and ensure the safety of
         your digital assets.
       </p>
 
@@ -81,12 +81,3 @@ const Welcome = () => {
 };
 
 export default Welcome;
-=======
-function Welcome() {
-  return (
-    <div>Welcome</div>
-  )
-}
-
-export default Welcome;
->>>>>>> 517d12f8957c2bafe891c240a4f8ae0b7a336609
