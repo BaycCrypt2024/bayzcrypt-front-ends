@@ -1,0 +1,204 @@
+/* main container */
+.main-container{
+    display: flex;
+  width: 100%;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+/* container1 css */
+.card-body1{
+    background-color: #100027;
+    width:100%;
+    border-radius:5%;
+    margin-left: -2.5rem;
+    margin-right:-2rem;
+    }
+
+.logo1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-left:-60% ;
+    margin-top: 6%;
+  }
+
+.svg {
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+
+  .info1{
+    background-color: white;
+    color: black;
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40%;
+    margin-bottom: 20%;
+    border-radius: 1rem;
+    padding: 1rem;
+  } 
+
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-icon {
+    width: 3rem; /* Adjust the size as needed */
+    height: 3rem; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image round */
+    margin-right: 10px; /* Adjust spacing between the icon and username */
+  }
+  
+  .username-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .username {
+    font-weight: bold;
+    margin-top: 1.5rem;
+  }
+  
+  .user-role {
+    margin-top: 5px; /* Adjust the gap between username and user role */
+  }
+  
+
+
+
+ 
+
+  .mid-title{
+    color:  #FFFFFF;
+    line-height: 1rem;
+    margin-top: 10%;
+    margin-left: 2rem;
+    text-align: left;
+    font: Plus Jakarta Sans;
+   
+
+  }
+
+  .card-text1{
+    color: #B0B0B0;
+    text-align: left;
+    margin-left: 1rem;
+    margin: 2rem;
+  }
+
+
+
+
+
+
+/* container2 css*/
+.card-body2{
+    background-color:white;
+    width:100%;
+    border-radius: 2rem;
+    flex-direction: column;
+    align-items: center;
+   margin-left: 8rem;
+    margin-right: 5rem;
+}
+
+
+.details{
+
+  margin-top: -1rem;
+  font: Plus Jakarta Sans;
+  color:#4B4B4B;
+}
+
+
+/* yaha se login wala ka */
+.click{
+  color:white;
+  background-color: green;
+  width: 75%;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 5rem;
+  
+}
+.goggle{
+  color:black ;
+  background-color: #F4F4F4;
+  margin: 0.5rem;
+  width: 75%;
+  border-radius: 50px;
+  text-align: center;
+  }
+
+  .bottomtext2{
+    margin-top: 8rem;
+  }
+  .signup{
+    color: green;
+  }
+
+  .forgot{
+   color: black;
+   margin-top: 1rem;
+   text-align: left;
+   font-size: 0.9rem;
+   
+  }
+
+
+   
+  #btn{
+    color: green;
+  }
+
+  /* yaha se email ka start hua ha */
+
+  /* .mb-3{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5rem;
+    margin-top: 4rem;
+  } */
+  .mb-2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+ 
+
+  .form-text{
+    color: #B0B0B0;
+    font: Plus Jakarta Sans;
+    font-size: 0.8rem;
+  }
+
+  .form-control{
+    height: 2rem;
+    width: auto;
+  }
+
+  
+  /* icons positioning */
+.goggleicon{
+  display: flex;
+  flex-direction: row;
+}
+
+.red{
+    height: 1rem;
+
+margin-right: 0.5rem;
+}
+
+.animal{
+    margin-bottom:-1rem;
+   
+}

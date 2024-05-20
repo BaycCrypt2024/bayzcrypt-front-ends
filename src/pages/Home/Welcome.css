@@ -1,0 +1,50 @@
+
+.card-body{
+    background-color: white;
+    width: 30rem;
+margin-bottom: 3%;
+height: 100vh;
+box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.2);
+}
+.card-text{
+     font-size: 12px;
+     text-align: center;
+     margin-left: 5rem;
+     margin-right: 5rem;
+     margin-top: -1rem;
+   
+}
+.card-title{
+    font-size: 20px;
+    margin-top: -20px;
+}
+.click{
+    color:white;
+    background-color: green;
+    width: 75%;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+
+.bottomtext{
+    margin-top: 3rem;
+}
+
+.login{
+    color: black;
+    margin-top: -2rem;
+
+}
+#btn{
+    color: green;
+    margin-left: 0rem;
+    margin-bottom: 10rem;
+    cursor: pointer;
+}
+
+.lion{
+    display: flex;
+    flex-direction: column;
+}
