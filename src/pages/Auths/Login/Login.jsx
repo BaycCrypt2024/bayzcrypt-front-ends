@@ -6,7 +6,7 @@ import Container1 from "./Container1";
 
 const Login = () => {
   return (
-    <div className="main-container">
+    <div className="main-containerlog">
       <Container1 />
       <Container2 />
     </div>

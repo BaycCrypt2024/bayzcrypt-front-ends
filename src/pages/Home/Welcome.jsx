@@ -58,7 +58,7 @@ const Welcome = () => {
       </div>
       <div className="lion">
         <a href="#" className="btn btn-primary">
-          <div className="d-grid gap-2">
+          <div className="d-grid ">
             <button
               className="click"
               type="button"

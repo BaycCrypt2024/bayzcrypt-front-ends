@@ -1,0 +1,139 @@
+
+
+.card-body{
+    background-color: white;
+    width: 30rem;
+margin-bottom: 3%;
+height: 100vh;
+box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.2);
+}
+.card-text{
+     font-size: 16px;
+     line-height: 24px;
+     text-align: center;
+     margin-left: 1rem;
+     margin-right: 1rem;
+     margin-top:-2.5rem;
+     font: Plus Jakarta Sans;
+    }
+
+.card-title{
+    font-size: 32px;
+    margin-top: -1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Box2{
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.click{
+    color:white;
+    background-color: green;
+    width: 75%;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 5rem;
+    
+}
+
+.bottomtext{
+    margin-top: 3rem;
+}
+
+.login{
+    color: black;
+    margin-top: -2rem;
+
+}
+#btn{
+    color: green;
+    margin-left: 0rem;
+    margin-bottom: 10rem;
+    cursor: pointer;
+}
+
+.lion{
+    display: flex;
+    flex-direction: column;
+}
+.Box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem; 
+}
+  
+  
+.balloon {
+    align-content: center;
+   width: 11rem;
+   margin-top: 12rem;
+  }
+  
+  .design1{
+    transform: rotate(-10deg);
+    width: 1.8rem; 
+  margin-top: 10rem;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.design2{
+    transform: rotate(200deg);
+    width: 2rem;
+    margin-top: 3rem;   
+}
+
+.design3{
+    transform: rotate(360deg);
+    width: 2rem;
+    margin-top: -8rem;
+}
+.design4{
+    transform: rotate(100deg);
+    width: 2rem;
+    margin-top: -1rem;
+}
+.design5{
+    transform: rotate(-32.29deg);
+    width: 2rem;
+    margin-top: 13rem;
+}
+.design6{
+    transform: rotate(52.9deg);
+    width: 2rem;
+    margin-top: -6rem;
+}
+.design7{
+    transform: rotate(100.9deg);
+    width: 2rem;
+    margin-top: 16rem;
+}
+.design8{
+    transform: rotate(75deg);
+    width: 2rem;
+    margin-top: 1rem;
+}
+.design9{
+    transform: rotate(21deg);
+    width: 2rem;
+    margin-top: 8rem;
+ 
+}
+  
+.btn-primary{
+    width: 28rem;
+   background-color: green;
+   border-radius: 2rem;
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+color: white;
+margin-top: 7rem;
+}
+
+
+  

@@ -16,8 +16,8 @@ const Container2 = () => {
     navigate("/register");
   };
   return (
-    <div className="card-body2">
-      <div className="logo2">
+    <div className="card-body2log">
+      <div className="logo2log">
         <svg
           width="100px"
           height="70px"
@@ -33,13 +33,15 @@ const Container2 = () => {
           />
         </svg>
       </div>
-      <h2 className="card-title2">Welcome back!</h2>
-      <div className="details">
+      <div className="welcomelog">
+        <h2 className="card-title2">Welcome back!</h2>
+      </div>
+      <div className="detailslog">
         <h6>Please enter your details</h6>
       </div>
 
       <form>
-        <div className="mb-2">
+        <div className="mb-1log">
           <label htmlFor="exampleInputEmail1" className="form-label">
             Email address
           </label>
@@ -75,12 +77,12 @@ const Container2 = () => {
             />
           </div>
 
-          <div id="emailHelp" className="form-text">
+          <div id="emailHelp" className="form-textlog">
             Must be a Valid email address
           </div>
         </div>
 
-        <div className="mb-2">
+        <div className="mblog">
           <label htmlFor="exampleInputPassword1" className="form-label">
             password
           </label>
@@ -117,42 +119,36 @@ const Container2 = () => {
           </div>
         </div>
 
-        <div className="forgot">
-          <button className="btn"> forgot Password</button>
+        <div className="forgotloginlog">
+          <button className="btnlog"> forgot Password</button>
         </div>
       </form>
 
-      <a href="#" className="btn btn-primary">
-        <div className="d-grid gap-2">
-          <button className="click" type="button">
-            Log In
-          </button>
-        </div>
-      </a>
+      {/* <a href="#" className="btn btn-primary"> */}
+      <div className="Logingreenlog">
+        <button className="click" type="button">
+          Log In
+        </button>
+      </div>
 
-      <a href="#" className="btn btn-primary">
-        <div className="d-grid gap-2">
-          <button
-            className="goggle"
-            type="button"
-            style={{ alignItems: "center" }}
-          >
-            Log In with google
-            <span style={{ marginLTop: "110rem", marginLeft: "0.5rem" }}>
-              <FcGoogle />
-            </span>
-          </button>
-        </div>
-      </a>
-      <div className="bottomtext2">
-        <center>
-          <p className="login2">
-            Don't have an account?
-            <a href="#" className="signup" onClick={handleSignp}>
-              <span> Sign Up</span>
-            </a>
-          </p>
-        </center>
+      <div className="Logingooglelog">
+        <button
+          className="gogglelog"
+          type="button"
+          style={{ alignItems: "center" }}
+        >
+          Log In with google
+          <span style={{ marginLTop: "110rem", marginLeft: "0.5rem" }}>
+            <FcGoogle />
+          </span>
+        </button>
+      </div>
+
+      <div className="bottom-textlog">
+        Don't have an account?
+        <a href="#" className="signuplog" onClick={handleSignp}>
+          <span> Sign Up</span>
+        </a>
       </div>
     </div>
   );

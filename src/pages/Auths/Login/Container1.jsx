@@ -4,10 +4,10 @@ import "./Login.css";
 
 const Container1 = () => {
   return (
-    <div className="card-body1">
-      <div className="logo1">
+    <div className="card-body1log">
+      <div className="logo1log">
         <svg
-          className="svg"
+          className="svglogo"
           width="5%"
           height="12%"
           viewBox="0 0 170 190"
@@ -24,19 +24,19 @@ const Container1 = () => {
 
         <center>BayzCrypt</center>
       </div>
-      <div className="mid-title">
+      <div className="mid-titlelog">
         <h2>Welcome back to BayzCrypt,</h2>
         <h2>where your assets is all yours</h2>
       </div>
       <div>
-        <p className="card-text1">
+        <p className="card-text1log">
           Welcome to BayzCrypt,your gateway to secure and decentralized
           finances.With BayzCrypt,you're in control of your assests like never
           before.Let's get started to secure your account and ensure the safety
           of your digital assets.
         </p>
       </div>
-      <div className="info1">
+      <div className="info1log">
         <p>
           Bayzcrypt has transformed my approach to crypto trading.The platform's
           user-friendly interface combined with their commitment to security has
@@ -44,11 +44,11 @@ const Container1 = () => {
           seed phrase setup ensured that my assests are secure, and the trading
           experience has been seamless.
         </p>
-        <div className="user-info">
-          <img src="god.png" alt="User Icon" className="user-icon" />
-          <div className="username-info">
-            <span className="username">John Doe</span>
-            <p className="user-role">CEO, Matkins LLC</p>
+        <div className="user-infolog">
+          <img src="god.png" alt="User Icon" className="user-iconlog" />
+          <div className="username-infolog">
+            <span className="usernamelog">John Doe</span>
+            <p className="user-rolelog">CEO, Matkins LLC</p>
           </div>
         </div>
       </div>

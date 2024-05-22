@@ -32,7 +32,9 @@ const RegContainer2 = () => {
           />
         </svg>
       </div>
-      <h2 className="card-title2">Sign Up</h2>
+      <div className="card-title3">
+        <h2 className="card-title2">Sign Up</h2>
+      </div>
       <div className="details">
         <h6>Please enter your details</h6>
       </div>
@@ -160,15 +162,15 @@ const RegContainer2 = () => {
       </form>
 
       <a href="#" className="btn btn-primary">
-        <div className="d-grid gap-2">
-          <button className="click" type="button">
+        <div className="signreg">
+          <button className="clickreg" type="button">
             Sign Up
           </button>
         </div>
       </a>
 
       <a href="#" className="btn btn-primary">
-        <div className="d-grid gap-2">
+        <div className="signgoogle">
           <button
             className="goggle"
             type="button"

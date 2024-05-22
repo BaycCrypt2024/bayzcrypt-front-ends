@@ -2,9 +2,13 @@
 .main-container{
     display: flex;
   width: 100%;
-  margin-top: 1%;
+  margin-top: 1rem;
   margin-left: 1%;
+  margin-bottom: 1rem;
 }
+
+
+
 
 /* container1 css */
 .card-body1{
@@ -26,7 +30,7 @@
   }
 
 .svg {
-    margin-right: 10px; /* Adjust margin as needed */
+    margin-right: 10px; 
   }
 
   .info1{
@@ -47,10 +51,10 @@
   }
   
   .user-icon {
-    width: 3rem; /* Adjust the size as needed */
-    height: 3rem; /* Adjust the size as needed */
-    border-radius: 50%; /* Makes the image round */
-    margin-right: 10px; /* Adjust spacing between the icon and username */
+    width: 3rem; 
+    height: 3rem; 
+    border-radius: 50%; 
+    margin-right: 10px; 
   }
   
   .username-info {
@@ -64,13 +68,8 @@
   }
   
   .user-role {
-    margin-top: 5px; /* Adjust the gap between username and user role */
+    margin-top: 5px; 
   }
-  
-
-
-
- 
 
   .mid-title{
     color:  #FFFFFF;
@@ -104,6 +103,7 @@
     align-items: center;
    margin-left: 8rem;
     margin-right: 5rem;
+    margin-top: 2.5rem;
 }
 
 
@@ -115,8 +115,48 @@
 }
 
 
+ /* yaha se email ka start hua ha */
+
+ .mb-2{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.form-text{
+  color: #B0B0B0;
+  font: Plus Jakarta Sans;
+  font-size: 0.8rem;
+}
+
+.form-control{
+  height: 2rem;
+  width: auto;
+}
+
+
+
+
+
+
 /* yaha se login wala ka */
-.click{
+
+.forgot{
+  color: black;
+  margin-top: 1rem;
+  text-align: left;
+  font-size: 0.9rem;
+  flex-direction: column;
+  display: flex;
+ }
+
+ .animal{
+  margin-bottom:-1rem;
+ }
+
+
+.clickreg{
   color:white;
   background-color: green;
   width: 75%;
@@ -135,55 +175,17 @@
   }
 
   .bottomtext2{
-    margin-top: 8rem;
+    margin-top: 20rem;
   }
   .signup{
     color: green;
   }
 
-  .forgot{
-   color: black;
-   margin-top: 1rem;
-   text-align: left;
-   font-size: 0.9rem;
-   
-  }
-
-
-   
   #btn{
     color: green;
   }
 
-  /* yaha se email ka start hua ha */
-
-  /* .mb-3{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    gap: 0.5rem;
-    margin-top: 4rem;
-  } */
-  .mb-2{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    gap: 0.5rem;
-    margin-top: 1rem;
-  }
-
  
-
-  .form-text{
-    color: #B0B0B0;
-    font: Plus Jakarta Sans;
-    font-size: 0.8rem;
-  }
-
-  .form-control{
-    height: 2rem;
-    width: auto;
-  }
 
   
   /* icons positioning */
@@ -194,11 +196,5 @@
 
 .red{
     height: 1rem;
-
 margin-right: 0.5rem;
-}
-
-.animal{
-    margin-bottom:-1rem;
-   
 }

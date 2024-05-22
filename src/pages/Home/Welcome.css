@@ -24,12 +24,12 @@ box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.2);
     width: 75%;
     border-radius: 50px;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
     
 }
 
 .bottomtext{
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 .login{
@@ -47,4 +47,9 @@ box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.2);
 .lion{
     display: flex;
     flex-direction: column;
+   
+}
+
+.d-grid {
+    margin-top: -4rem;
 }
